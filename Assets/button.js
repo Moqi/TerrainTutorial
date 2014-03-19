@@ -10,7 +10,7 @@ function Update () {
 
 // JavaScript
 function OnGUI () {
-	if (GUI.Button (Rect (10,100,100,30), "KILL BIRD!")) {
-		print ("Die BIRD!!!");
+	if (GUI.Button (Rect (10,100,100,30), "START GAME!")) {
+		Application.LoadLevel("game");
 	}
 }
